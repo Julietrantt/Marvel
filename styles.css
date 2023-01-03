@@ -1,0 +1,165 @@
+body {
+  text-align: left;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+}
+
+.navigation {
+  width: 100%;
+}
+
+nav {
+  text-align: right;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.logo {
+  float: left;
+  height: 60px;
+  width: 60px;
+  vertical-align: middle;
+  padding: 0px;
+}
+
+a {
+  padding-right: 10px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.introduction {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-bottom: 100px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title {
+  padding-top: 60px;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: extra-bold;
+}
+
+.introtext {
+  flex: 1;
+  max-width: 400px;
+  min-height: 300px;
+}
+
+.introimg {
+  flex: 1;
+  max-width: 400px;
+  max-height: 300px;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.info {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: extra-bold;
+  text-align: center;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+
+  margin: auto;
+}
+
+.information div {
+  padding-left: 30px;
+  font-weight: 100;
+}
+
+.information img {
+  height: 120px;
+  width: 130px;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 25px;
+  border-color: #3882f6;
+}
+
+.information h4 {
+  height: 120px;
+  width: 130px;
+}
+
+.random {
+  justify-content: center;
+}
+
+.quotebackground {
+  background-color: #e5e7eb;
+
+  height: 200px;
+}
+
+.quotetext {
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: 100;
+  text-align: left;
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+.quote {
+  width: 600px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.quoteauthor {
+  margin-top: 0;
+  text-align: right;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+/* ....... */
+.signup {
+  background-color: white;
+}
+
+.signuptext {
+  display: flex;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  justify-content: center;
+  width: 700px;
+  height: 100px;
+  margin: 50px auto;
+}
+
+.signuptext p {
+  flex: 6;
+  padding: 10px;
+  font-size: 14px;
+  margin: 20px 40px;
+}
+
+.signuptext button {
+  flex: 1;
+  background-color: #3882f6;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  width: 5px;
+  height: 20px;
+  text-decoration: none;
+  margin: 40px 60px;
+}
